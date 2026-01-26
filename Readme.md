@@ -1,4 +1,3 @@
-```markdown
 # Inventory Management System
 
 A simple Java-based console Inventory Management System for managing products, stock, and inventory operations. The application provides CRUD operations for products and uses a MySQL database for persistence.
