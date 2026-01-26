@@ -1,7 +1,7 @@
-package ui;
+package legacy_console.ui;
 
-import model.Product;
-import service.InventoryService;
+import legacy_console.model.Product;
+import legacy_console.service.InventoryService;
 
 import java.util.Scanner;
 

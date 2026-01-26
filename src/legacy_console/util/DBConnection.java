@@ -1,4 +1,4 @@
-package util;
+package legacy_console.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

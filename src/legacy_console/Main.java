@@ -1,5 +1,7 @@
-import ui.InventoryUI;
-import util.DBConnection;
+package legacy_console;
+
+import legacy_console.ui.InventoryUI;
+import legacy_console.util.DBConnection;
 
 public class Main {
     public static void main(String[] args) {

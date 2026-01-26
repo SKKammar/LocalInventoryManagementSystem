@@ -1,7 +1,7 @@
-package dao;
+package legacy_console.dao;
 
-import model.Product;
-import util.DBConnection;
+import legacy_console.model.Product;
+import legacy_console.util.DBConnection;
 
 import java.sql.*;
 import java.util.ArrayList;

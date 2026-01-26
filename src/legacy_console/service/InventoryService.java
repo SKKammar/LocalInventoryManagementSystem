@@ -1,7 +1,7 @@
-package service;
+package legacy_console.service;
 
-import dao.ProductDAO;
-import model.Product;
+import legacy_console.dao.ProductDAO;
+import legacy_console.model.Product;
 
 import java.util.List;
 

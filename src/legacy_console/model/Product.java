@@ -1,4 +1,4 @@
-package model;
+package legacy_console.model;
 
 public class Product {
 
