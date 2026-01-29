@@ -59,12 +59,12 @@ public class InventoryUI {
     }
 
     private void viewAllProducts() {
-        System.out.println("\nID | Name | Category | Qty | Price");
+        System.out.println("\nID | Name | Category | Qty | Price | Barcode");
         System.out.println("----------------------------------");
         service.getAllProducts().forEach(p ->
                 System.out.printf("%d | %s | %s | %d | %.2f%n",
                         p.getProductId(), p.getName(), p.getCategory(),
-                        p.getQuantity(), p.getPrice())
+                        p.getQuantity(), p.getPrice(), p.getBarcode())
         );
     }
 
